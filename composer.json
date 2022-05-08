@@ -1,0 +1,52 @@
+{
+    "name": "duroom/lang-english",
+    "type": "duroom-extension",
+    "description": "English language pack.",
+    "keywords": [
+        "locale"
+    ],
+    "license": "MIT",
+    "require": {
+        "duroom/core": "^1.2"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "duroom-extension": {
+            "title": "English",
+            "category": "language",
+            "info": {
+                "website": "https://duroom.js.org",
+                "support": "https://discuss-duroom.js.org"
+            },
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "duroom-locale": {
+            "code": "en",
+            "title": "English"
+        },
+        "duroom-cli": {
+            "modules": {
+                "admin": false,
+                "forum": false,
+                "js": false,
+                "jsCommon": false,
+                "css": false,
+                "gitConf": true,
+                "githubActions": false,
+                "prettier": false,
+                "typescript": false,
+                "bundlewatch": false,
+                "backendTesting": false,
+                "editorConfig": true,
+                "styleci": true
+            }
+        }
+    }
+}
